@@ -1,0 +1,8 @@
+import turtle
+def draw(rad):
+        for i in range(1):
+            turtle.circle(rad//1.5,90)
+            turtle.circle(rad,90)
+turtle.seth(-90)
+draw(150)
+turtle.done()
